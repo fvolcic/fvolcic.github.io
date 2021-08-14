@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="MessageHandlerBase\l\< MsgTypes \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMessageHandlerBase.html",tooltip="Base class for a message handler. This provides the interface for what is needed for parsing messages..."];
+  Node0 [label="MessageManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMessageManager.html",tooltip="The class that will contain all operations for handling incoming messages. Message paring is not done..."];
 }

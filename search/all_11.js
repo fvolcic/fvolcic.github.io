@@ -1,11 +1,25 @@
 var searchData=
 [
-  ['readme_82',['README',['../md_README.html',1,'']]],
-  ['random_83',['random',['../src_2utils_8h.html#a343a32603a8f5b5a2145ea0b919f5f2b',1,'Utils']]],
-  ['readserialuntil_84',['readSerialUntil',['../namespaceUtils_1_1LEDSerial.html#a02e99351c5f05c5c1f0219acff60fd3c',1,'Utils::LEDSerial']]],
-  ['reset_85',['RESET',['../namespaceUtils_1_1Program.html#a29b062c4074e508ad7d1e5404bfe9171',1,'Utils::Program']]],
-  ['rgb_5fcolor_86',['rgb_color',['../structDisplay_1_1rgb__color.html',1,'Display']]],
-  ['ringbuffer_87',['RingBuffer',['../classledstd_1_1RingBuffer.html',1,'ledstd']]],
-  ['ringbuffer_3c_20message_20_2a_2c_205u_20_3e_88',['RingBuffer&lt; Message *, 5u &gt;',['../classledstd_1_1RingBuffer.html',1,'ledstd']]],
-  ['runtime_5fassert_89',['runtime_assert',['../namespaceUtils_1_1Asserts.html#ab9dc8908ad55a0a15fe3edd1690763b2',1,'Utils::Asserts']]]
+  ['safe_5fequals_89',['safe_equals',['../structsafe__equals.html',1,'']]],
+  ['safe_5fequals_3c_20int_2c_20std_3a_3asize_5ft_20_3e_90',['safe_equals&lt; int, std::size_t &gt;',['../structsafe__equals_3_01int_00_01std_1_1size__t_01_4.html',1,'']]],
+  ['safe_5fequals_3c_20std_3a_3asize_5ft_2c_20int_20_3e_91',['safe_equals&lt; std::size_t, int &gt;',['../structsafe__equals_3_01std_1_1size__t_00_01int_01_4.html',1,'']]],
+  ['search_2ecpp_92',['search.cpp',['../search_8cpp.html',1,'']]],
+  ['serialavailable_93',['serialAvailable',['../namespaceUtils_1_1LEDSerial.html#a0acb615054b15dea536aac45f6b2fb82',1,'Utils::LEDSerial']]],
+  ['serialretiever_2ecpp_94',['serialretiever.cpp',['../serialretiever_8cpp.html',1,'']]],
+  ['serialretriever_95',['SerialRetriever',['../classSerialRetriever.html',1,'']]],
+  ['serialretriever_2eh_96',['serialretriever.h',['../serialretriever_8h.html',1,'']]],
+  ['setcomplete_97',['SetComplete',['../classSetComplete.html',1,'']]],
+  ['settings_98',['Settings',['../namespaceSettings.html',1,'']]],
+  ['settings_2eh_99',['settings.h',['../settings_8h.html',1,'']]],
+  ['setupretriever_100',['setupRetriever',['../classMessageRetrieverBase.html#a95eb1368eaaa01881019be244802ab13',1,'MessageRetrieverBase::setupRetriever()=0'],['../classMessageRetrieverBase.html#a95eb1368eaaa01881019be244802ab13',1,'MessageRetrieverBase::setupRetriever()=0'],['../classSerialRetriever.html#aab24ff2ae475cf734d3bb08acbd8b1a7',1,'SerialRetriever::setupRetriever()']]],
+  ['size_101',['size',['../classledstd_1_1vector.html#abc9bad3e0201b1865da3cf92c8a2e160',1,'ledstd::vector::size()'],['../classledstd_1_1RingBuffer.html#acb2f7becfdde6d2ed799e6a8cb3239de',1,'ledstd::RingBuffer::size()'],['../classledstd_1_1vector.html#abc9bad3e0201b1865da3cf92c8a2e160',1,'ledstd::vector::size()'],['../classledstd_1_1RingBuffer.html#acb2f7becfdde6d2ed799e6a8cb3239de',1,'ledstd::RingBuffer::size()'],['../classledstd_1_1vector.html#abc9bad3e0201b1865da3cf92c8a2e160',1,'ledstd::vector::size()'],['../classledstd_1_1RingBuffer.html#acb2f7becfdde6d2ed799e6a8cb3239de',1,'ledstd::RingBuffer::size()']]],
+  ['ssid_102',['SSID',['../settings_8h.html#abe6a53efb2a1d4f8749af2a9dc06ef42',1,'Settings::network::WIFI']]],
+  ['startmessagesystem_103',['startMessageSystem',['../namespaceMessageSystem.html#a15afe742d726dc13d252262d91312612',1,'MessageSystem']]],
+  ['storage_2ecpp_104',['storage.cpp',['../storage_8cpp.html',1,'']]],
+  ['storage_2eh_105',['storage.h',['../lib_2storage_8h.html',1,'(Global Namespace)'],['../src_2storage_8h.html',1,'(Global Namespace)']]],
+  ['store_5fdata_106',['store_data',['../lib_2storage_8h.html#a73d94a6dcfb37115c11a06237789cd19',1,'Filesystem']]],
+  ['store_5fencrypted_5fdata_107',['store_encrypted_data',['../lib_2storage_8h.html#a16efb5194bc670877c4351935f1a7ba6',1,'Filesystem']]],
+  ['structures_2ecpp_108',['structures.cpp',['../src_2structures_8cpp.html',1,'(Global Namespace)'],['../structures_2structures_8cpp.html',1,'(Global Namespace)']]],
+  ['structures_2eh_109',['structures.h',['../lib_2structures_8h.html',1,'(Global Namespace)'],['../src_2structures_8h.html',1,'(Global Namespace)'],['../structures_2structures_8h.html',1,'(Global Namespace)']]],
+  ['system_5fconfig_2eh_110',['SYSTEM_CONFIG.h',['../SYSTEM__CONFIG_8h.html',1,'']]]
 ];

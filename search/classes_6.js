@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['message_141',['Message',['../structMessage.html',1,'']]],
-  ['messagedecoder_142',['MessageDecoder',['../classMessageDecoder.html',1,'']]],
-  ['messagehandlerbase_143',['MessageHandlerBase',['../classMessageHandlerBase.html',1,'']]],
-  ['messagemanager_144',['MessageManager',['../classMessageManager.html',1,'']]],
-  ['messageretrieverbase_145',['MessageRetrieverBase',['../classMessageRetrieverBase.html',1,'']]],
-  ['messagesystemconfig_146',['messageSystemConfig',['../structMessageSystem_1_1messageSystemConfig.html',1,'MessageSystem']]]
+  ['rgb_5fcolor_145',['rgb_color',['../structDisplay_1_1rgb__color.html',1,'Display']]],
+  ['ringbuffer_146',['RingBuffer',['../classledstd_1_1RingBuffer.html',1,'ledstd']]],
+  ['ringbuffer_3c_20message_20_2a_2c_205u_20_3e_147',['RingBuffer&lt; Message *, 5u &gt;',['../classledstd_1_1RingBuffer.html',1,'ledstd']]]
 ];

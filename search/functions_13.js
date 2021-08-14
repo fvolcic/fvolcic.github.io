@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updateretriever_253',['updateRetriever',['../classMessageRetrieverBase.html#a10799349b4c1dd267bd8a1ff32d30c6b',1,'MessageRetrieverBase::updateRetriever()=0'],['../classMessageRetrieverBase.html#a10799349b4c1dd267bd8a1ff32d30c6b',1,'MessageRetrieverBase::updateRetriever()=0'],['../classSerialRetriever.html#a8d817c341a0207aa66a452607cea4c41',1,'SerialRetriever::updateRetriever()']]]
+  ['write_251',['write',['../lib_2display_8h.html#a3547dc7939511649780d276700299479',1,'Display']]]
 ];

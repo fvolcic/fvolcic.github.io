@@ -11,9 +11,11 @@ digraph "src/utils.h"
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 [label="src/messagedecoderbase.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$messagedecoderbase_8cpp.html",tooltip=" "];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="src/messagesystem.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$messagesystem_8cpp.html",tooltip="File containing information regaurding the message system implmenentaiton."];
+  Node5 [label="src/messagedecodertest.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$messagedecodertest_8cpp.html",tooltip="File contains an example message decoder."];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="src/serialretiever.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$serialretiever_8cpp.html",tooltip="Definition of class defined in serialreriever.h."];
+  Node6 [label="src/messagesystem.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$messagesystem_8cpp.html",tooltip="File containing information regaurding the message system implmenentaiton."];
   Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="src/utils.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html",tooltip="Contains the definitions of things defined in the utils.h file."];
+  Node7 [label="src/serialretiever.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$serialretiever_8cpp.html",tooltip="Definition of class defined in serialreriever.h."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/utils.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utils_8cpp.html",tooltip="Contains the definitions of things defined in the utils.h file."];
 }

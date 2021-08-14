@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['settings_164',['Settings',['../namespaceSettings.html',1,'']]]
+  ['settings_162',['Settings',['../namespaceSettings.html',1,'']]]
 ];

@@ -69,7 +69,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">messagedecodersystem.h File Reference</div>  </div>
 </div><!--header-->
@@ -77,7 +78,11 @@ $(function() {
 
 <p>This file outlines the functions that are available for message decoding.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;message.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;ArduinoJson.h&quot;</code><br />
+<code>#include &quot;globals.h&quot;</code><br />
+<code>#include &quot;message.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="messagedecoderbase_8h_source.html">messagedecoderbase.h</a>&quot;</code><br />
+<code>#include &quot;messagedecodertest.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for messagedecodersystem.h:</div>
 <div class="dyncontent">
@@ -102,6 +107,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a85d9ce0dc55c077dc81da5b091559c4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceDecoderSystem.html#a85d9ce0dc55c077dc81da5b091559c4e">DecoderSystem::decode_execute</a> (<a class="el" href="structMessage.html#a677a343360a56d8358a356b6d7862b31">Message::Message</a> *msg)</td></tr>
 <tr class="memdesc:a85d9ce0dc55c077dc81da5b091559c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode and then execute a message object.  <a href="namespaceDecoderSystem.html#a85d9ce0dc55c077dc81da5b091559c4e">More...</a><br /></td></tr>
 <tr class="separator:a85d9ce0dc55c077dc81da5b091559c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a1e0da0eadd0c64dfd2e2e3a8154e6ec4"><td class="memItemLeft" align="right" valign="top"><a id="a1e0da0eadd0c64dfd2e2e3a8154e6ec4"></a>
+StaticJsonDocument&lt; MAX_MESSAGE_LENGTH &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>DecoderSystem::jsonObj</b></td></tr>
+<tr class="separator:a1e0da0eadd0c64dfd2e2e3a8154e6ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d8b90dfd357eb59adde56f247e9ea4"><td class="memItemLeft" align="right" valign="top"><a id="ab9d8b90dfd357eb59adde56f247e9ea4"></a>
+<a class="el" href="classExampleDecoder.html">ExampleDecoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DecoderSystem::exampledecoder</b></td></tr>
+<tr class="separator:ab9d8b90dfd357eb59adde56f247e9ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581461606b42c8b50861a2e53acdf297"><td class="memItemLeft" align="right" valign="top"><a id="a581461606b42c8b50861a2e53acdf297"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>DecoderSystem::num_decoders</b> = 1</td></tr>
+<tr class="separator:a581461606b42c8b50861a2e53acdf297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3ebc80b5d221815083220d695cbf319"><td class="memItemLeft" align="right" valign="top"><a id="ab3ebc80b5d221815083220d695cbf319"></a>
+<a class="el" href="classMessageDecoderBase.html">MessageDecoderBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>DecoderSystem::decoders</b> [] = {&amp;exampledecoder}</td></tr>
+<tr class="separator:ab3ebc80b5d221815083220d695cbf319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file outlines the functions that are available for message decoding. </p>

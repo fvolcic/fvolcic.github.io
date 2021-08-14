@@ -86,20 +86,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a85c61ba792777864af2a024e9c2a9483"><td class="memItemLeft" align="right" valign="top">virtual const const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleDecoder.html#a85c61ba792777864af2a024e9c2a9483">get_key</a> () override</td></tr>
 <tr class="memdesc:a85c61ba792777864af2a024e9c2a9483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the key object.  <a href="classExampleDecoder.html#a85c61ba792777864af2a024e9c2a9483">More...</a><br /></td></tr>
 <tr class="separator:a85c61ba792777864af2a024e9c2a9483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a549018a9cdae590a50ce39a5b54b7e34"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleDecoder.html#a549018a9cdae590a50ce39a5b54b7e34">decode</a> () override</td></tr>
-<tr class="memdesc:a549018a9cdae590a50ce39a5b54b7e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode the message and execute needed operations.  <a href="classExampleDecoder.html#a549018a9cdae590a50ce39a5b54b7e34">More...</a><br /></td></tr>
-<tr class="separator:a549018a9cdae590a50ce39a5b54b7e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classMessageDecoder"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMessageDecoder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMessageDecoder.html">MessageDecoder</a></td></tr>
-<tr class="memitem:a5492223e874899b724c95aa484a7b677 inherit pub_methods_classMessageDecoder"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageDecoder.html#a5492223e874899b724c95aa484a7b677">compare</a> (const char *str)</td></tr>
-<tr class="memdesc:a5492223e874899b724c95aa484a7b677 inherit pub_methods_classMessageDecoder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a string matches the message key.  <a href="classMessageDecoder.html#a5492223e874899b724c95aa484a7b677">More...</a><br /></td></tr>
-<tr class="separator:a5492223e874899b724c95aa484a7b677 inherit pub_methods_classMessageDecoder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d82d6f96b6e3aa0f8168bc7e895938"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleDecoder.html#af9d82d6f96b6e3aa0f8168bc7e895938">decode</a> (JsonDocument *doc) override</td></tr>
+<tr class="memdesc:af9d82d6f96b6e3aa0f8168bc7e895938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode the message and execute needed operations.  <a href="classExampleDecoder.html#af9d82d6f96b6e3aa0f8168bc7e895938">More...</a><br /></td></tr>
+<tr class="separator:af9d82d6f96b6e3aa0f8168bc7e895938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classMessageDecoderBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMessageDecoderBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMessageDecoderBase.html">MessageDecoderBase</a></td></tr>
+<tr class="memitem:ac8d070c3f54760465c4bb2527e3e464b inherit pub_methods_classMessageDecoderBase"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageDecoderBase.html#ac8d070c3f54760465c4bb2527e3e464b">compare</a> (const char *str)</td></tr>
+<tr class="memdesc:ac8d070c3f54760465c4bb2527e3e464b inherit pub_methods_classMessageDecoderBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a string matches the message key.  <a href="classMessageDecoderBase.html#ac8d070c3f54760465c4bb2527e3e464b">More...</a><br /></td></tr>
+<tr class="separator:ac8d070c3f54760465c4bb2527e3e464b inherit pub_methods_classMessageDecoderBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a549018a9cdae590a50ce39a5b54b7e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a549018a9cdae590a50ce39a5b54b7e34">&#9670;&nbsp;</a></span>decode()</h2>
+<a id="af9d82d6f96b6e3aa0f8168bc7e895938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d82d6f96b6e3aa0f8168bc7e895938">&#9670;&nbsp;</a></span>decode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -108,9 +108,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool ExampleDecoder::decode </td>
+          <td class="memname">bool ExampleDecoder::decode </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">JsonDocument *&#160;</td>
+          <td class="paramname"><em>doc</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -126,7 +127,7 @@ Additional Inherited Members</h2></td></tr>
 <dd>
 false </dd></dl>
 
-<p>Implements <a class="el" href="classMessageDecoder.html#a47cddde5d46eacc8de6afbd4547bee23">MessageDecoder</a>.</p>
+<p>Implements <a class="el" href="classMessageDecoderBase.html#a86f115362141dc418d698d08088c43eb">MessageDecoderBase</a>.</p>
 
 </div>
 </div>
@@ -156,7 +157,7 @@ false </dd></dl>
 <p>Get the key object. </p>
 <dl class="section return"><dt>Returns</dt><dd>const char const* </dd></dl>
 
-<p>Implements <a class="el" href="classMessageDecoder.html#a79f82b3bd097e5caf013c20676f9eb25">MessageDecoder</a>.</p>
+<p>Implements <a class="el" href="classMessageDecoderBase.html#a71e820b11bc8998930cf10b83859e2fc">MessageDecoderBase</a>.</p>
 
 </div>
 </div>

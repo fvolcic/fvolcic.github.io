@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="ledstd::RingBuffer\l\< Message *, 5u \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classledstd_1_1RingBuffer.html",tooltip=" "];
+  Node0 [label="ledstd::RingBuffer\l\< T, BufferSize \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classledstd_1_1RingBuffer.html",tooltip="This class represents a queue that uses a circular buffer for maintaining the elts."];
 }
